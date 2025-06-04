@@ -23,10 +23,10 @@ apply plugin: 'com.android.library'
 
 android {
     namespace 'de.bytepark.autoorientation'
-    compileSdkVersion 31
+    compileSdkVersion 35
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 19
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
